@@ -11,11 +11,21 @@ html, body {
 
 main {
   margin: auto;
-  width: 50%;
+  width: 80%;
   padding: 20px;
 }
 
 main > h1 {
   text-align: center;
   font-size: 3.5em;
+}
+ul {
+  padding: 0;
+}
+
+.conferences {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
